@@ -21,7 +21,7 @@ all_commands="$all_commands
 * start : Start the sandbox."
 start () {
     flextesa mini \
-             --root /tmp/mini-carthage --size 1 "$@" \
+             --root /tmp/mini-delphi --size 1 "$@" \
              --time-between-blocks 0 \
              --timestamp-delay 0 \
              --no-baking \
